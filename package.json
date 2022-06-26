@@ -1,0 +1,27 @@
+{
+  "name": "style-dictionary-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "start": "lerna run start",
+    "extract": "style-dictionary build --config=style-tokens/config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobsonMathias/style-dictionary-tokens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobsonMathias/style-dictionary-tokens/issues"
+  },
+  "homepage": "https://github.com/RobsonMathias/style-dictionary-tokens#readme",
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  }
+}

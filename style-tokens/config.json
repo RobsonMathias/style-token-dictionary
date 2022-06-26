@@ -1,0 +1,45 @@
+{
+  "source": ["style-tokens/*.token.json"],
+  "platforms": {
+    "web-js": {
+      "transformGroup": "js",
+      "buildPath": "material-site/src/",
+      "files": [
+        {
+          "destination": "tokens.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "web-css": {
+      "transformGroup": "css",
+      "buildPath": "sample-site/src/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+    "web-scss": {
+      "transformGroup": "scss",
+      "buildPath": "bootstrap-site/src/",
+      "files": [
+        {
+          "destination": "tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "app-flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "design_tokens/lib/",
+      "files": [
+        {
+          "destination": "theme.dart",
+          "format": "flutter/class.dart"
+        }
+      ]
+    }
+  }
+}

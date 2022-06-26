@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "bootstrap-site",
+    "material-site",
+    "sample-site"
+  ],
+  "useNx": false,
+  "version": "0.0.0"
+}
